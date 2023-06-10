@@ -7,16 +7,10 @@
 Whiptail is a program that displays information and input prompts which can be used within the terminal. It works as a drop-in alternative to the ``dialog`` command. I have included use cases as individual runnable scripts and a breakdown in this README document below.
 
 ## Installing Whiptail
-### Ubuntu
+### Fedora
 ```
-sudo apt install whiptail
+sudo dnf install newt
 ```
-
-### Arch
-```
-sudo pacman -S libnewt
-```
-
 ## Download and use this repo
 ```sh
 # Download the repository
